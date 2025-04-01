@@ -1,6 +1,8 @@
 import streamlit as st
 import requests
 def app0():
+
+    st.write('後で修正します')
     # GitHubの各テンプレートExcelファイルのURL
     TEMPLATE_EXCEL_URLS = {
         "部門なし": "https://github.com/yourusername/yourrepo/raw/main/template1.xlsx",
