@@ -7,6 +7,8 @@ import excel_to_R4_keihi
 import excel_to_R4_yuwa
 import excel_to_freee
 
+st.set_page_config(layout="wide") 
+
 # 初期状態では何も表示しないようにセッション状態を設定
 if 'current_app' not in st.session_state:
     st.session_state['current_app'] = None
