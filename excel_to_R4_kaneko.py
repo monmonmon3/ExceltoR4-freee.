@@ -17,6 +17,7 @@ def app1():
         st.write('④補助科目が反映されるように変更しました。')
         st.write('⑤確認用にプレビューを追加しました。')
         st.write('⑥レイアウトを左寄りに変更しました。')
+        st.write('⑦軽減税率のコードが間違っていたので修正しました。')
 
     uploaded_file = st.file_uploader("Excelファイルをアップロードしてください", type=["xlsx"])
 
